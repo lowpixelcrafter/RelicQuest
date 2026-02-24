@@ -97,7 +97,7 @@
               "name": "Fabric (intermediary)",
               "type": "Library",
               "artifact": {
-                "size": 701826,
+                "size": 724686,
                 "MD5": "d0f4187a62328d4a95f3428434efbd48",
                 "url": "https://github.com/lowpixelcrafter/RelicQuest/raw/main/repo/lib/net/fabricmc/intermediary/1.21.5/intermediary-1.21.5.jar"
               }
