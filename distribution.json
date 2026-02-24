@@ -105,23 +105,13 @@
           ]
         },
         {
-            "id": "net.fabricmc:fabric-api:0.89.0+1.21.5",
+            "id": "net.fabricmc:fabric-api:0.89.0+1.21.5@.jar",
             "name": "Fabric API",
-            "type": "FabricApi",
+            "type": "FabricMod",
             "artifact": {
               "size": 2248994,
               "MD5": "EFCBC632E8C42C754F465472942896B8",
               "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/kKEGlsne/fabric-api-0.128.2%2B1.21.5.jar"
-            }
-        },
-        {
-            "id": "net.common-networking:networking-api:1.0.18",
-            "name": "Common Networking API",
-            "type": "Fabric Mod",
-            "artifact": {
-              "size": 26180,
-              "MD5": "09E6C54E89C60127DD9AB23FC8D36835",
-              "url": "https://cdn.modrinth.com/data/HIuqnQpi/versions/x5VfTLEk/common-networking-fabric-1.0.18-1.21.5.jar"
             }
         },
         {
@@ -132,7 +122,19 @@
               "size": 3576000,
               "MD5": "5C5045CD878F3E370E96351CB5A8032F",
               "url": "https://cdn.modrinth.com/data/lfHFW1mp/versions/rV52D5m0/journeymap-fabric-1.21.5-6.0.0-beta.52.jar"
-            }
+            },
+            "subModules": [
+                {
+                    "id": "net.common-networking:networking-api:1.0.18",
+                    "name": "Common Networking API",
+                    "type": "Fabric Mod",
+                    "artifact": {
+                        "size": 26180,
+                        "MD5": "09E6C54E89C60127DD9AB23FC8D36835",
+                        "url": "https://cdn.modrinth.com/data/HIuqnQpi/versions/x5VfTLEk/common-networking-fabric-1.0.18-1.21.5.jar"
+                    }
+                }
+            ]
         }
       ]
     }
